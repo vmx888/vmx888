@@ -1,0 +1,35 @@
+body{
+    font-family: 'Cinzel Decorative', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pics/burg3.jpg");
+}
+.navheader{
+    background-color: black;
+    height: 100px;
+}
+
+.msections{
+    max-width: 1000px;
+    max-height: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 4px #000000;
+}
+
+
+.msections h2{
+    color: rgb(255, 248, 248);
+}
+.mitem{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+.mitem span{
+    margin:4px;
+}
