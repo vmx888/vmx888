@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="pics/cafe.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        margin:0;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .navheader{
+    background-color: black;
+    height: 100px; 
+}
+
+
+
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    text-align: center;
+    color:#ffffff ;
+}
+
+.ctitle{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 17px;
+}
+
+
+form {
+     max-width:500px;
+     margin:40px auto; 
+     }
+
+.nmem {
+  color:rgb(255, 255, 255);
+  font-family: 'Playfair Display', serif;
+  font-weight:700;
+  font-size: 18px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border:1px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 13px;
+  width:100%;
+  background: transparent;
+}
+
+
+textarea {
+  height: 170px;
+}
+
+[type="submit"] {
+  font-family: 'Cinzel Decorative', serif;
+  width: 100%;
+  background: #2e0202;
+  border-radius:5px;
+  border:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:rgb(247, 247, 247);
+  font-size:24px;
+  font-weight:700;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+ [type="submit"]:hover{
+    transform: scale(0.9);
+}
+
+footer{
+    background-color: #000000;
+    height: 2cm;
+    border: #ffffff solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+span{
+    padding: 10px;
+}
+
+
+</style>
+<body>
+
+    <header class="navheader">
+        <nav class="mynav">
+            <div class="right">
+                
+                <a href="HOME.html">Home</a> 
+                <a href="ABOUT.html">About Us</a>
+                <a href="MENU.html">Menu</a>
+                
+            </div> 
+    
+            <img  src="pics/line.png" height="60px"/>
+    
+            <div class="left">
+                
+                <a href="LIBRARY.html">Library</a> 
+                <a href="CONTACT.html">Contact</a> 
+                
+            </div>
+            </nav>
+    </header>
+
+    
+
+    <h1>Contact Us</h1>
+    
+  
+
+
+    <form>      
+        <input name="name" type="text" class="nmem" placeholder="Name" />   
+        <input name="email" type="text" class="nmem" placeholder="Email" />
+        <textarea name="text" class="nmem" placeholder="Comment"></textarea>
+        <input type="submit" value="submit"/>
+      </form>
+
+      <footer>
+        <div class="details">
+        <span>Address: Nevsky Prospekt 35, St. Petersburg, Russia</span>
+        <span>Availability: Daily 07 am - 10 pm</span>
+        <span>Mobile:  +7 (812) 123-45-67</span>
+        <span>E-mail:<a href="mailto:pushkinstable812@gmail.com">  pushkinstable812@gmail.com </span>
+        </div>
+      </footer>
+
+
+</body>
+
+
+
+</html>
