@@ -1,0 +1,62 @@
+.mynav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+
+
+.left, .right {
+    display: flex; 
+    gap: 20px;  
+    padding: 30px; 
+  }
+
+.mynav a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-family: 'Cinzel Decorative', serif;
+  padding: 10px 30px;
+
+
+}
+
+.mynav a:hover {
+  transform: scale(1.3);
+
+}
+
+.scroll-link{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: white;
+    overflow-x: hidden;
+    transition: transform 0.3s ease, color 0.3s ease;
+ }
+ 
+ 
+ .scroll-link:hover{
+    transform: scale(1.2);
+ }
+ 
+
+
+#list dt{
+  font-family: 'Cinzel Decorative', serif;
+  color: white;
+  font-size: 20px;
+}
+#list dd{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 15px;
+}
+
+
+
